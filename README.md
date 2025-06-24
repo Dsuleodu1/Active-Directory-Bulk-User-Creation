@@ -7,18 +7,18 @@ An Active Directory home lab using Oracle VirtualBox on our personal computer to
 
 ## Features
 
-- Created with Microsoft Azure Sentinel (SIEM) log analytics.
-- Provides Knowledge of KQL, PowerShell scripting, remote desktop protocol and virtual machines.
-- No installation necessary just create azure free account ![]().
-- Gives you hands on experience dropping firewall rules and creating new users to RDP into.
-- Allows you to visualize 24hrs of cyber attacks with precise insights on attackers information.
+- Created with Oracle VirtualBox, ISO Microsoft 10, Server 2019 files, PowerShell, Active Directory
+- Provides Knowledge of basic networking infrastructure, PowerShell scripting, virtual machines and AD!
+- No installation necessary just dowload VirtualBox and 2019/2010 ISO files. ![]().
+- Gives you hands on experience of VM infrastructure scaliing, DHCP, NAT/ROUTING, creating domain accounts.
+- Allows you to scale VM infrastructure, create user persmissions, and use PowerShell to create various       User/Passwords.
 - Works on Mac, Linux and Windows
 
 ### Output
 
-![](https://github.com/Dsuleodu1/Azure-Soc-Lab/blob/main/Screenshot%202025-06-11%20093936.png)
+![](https://github.com/Dsuleodu1/Active-Directory-Bulk-User-Creation/blob/main/Screenshot%202025-06-11%20162543.png)
 
-> This is the completed visualization of our Microsft Sentinel Log analysis map after 24 hours of monitoring our system. As you can see this visualization presents various locations around the world where our attackers geoIp were found based on our log analytics. Using our PowerShell script we comprised we were able to automate a task in (KQL) Kusto Query Language allowing us to filter out our log analytics to key in on specifications like; time generated, computer, attackerIp, Ipaddres, city name, country name, latitude, and longitude. 
+> This is the completed output of the Active Directory lab, as you can see after using our PowerShell script we were able to create various users that total up to 1000+. Each of these users can be found in our virtual machines domain and have their own username and password. We also created our very own Admin account using our own name for which we personally already logged onto the virtual machine. Also as you can see you can see you can you certain commands to query certain indiduals first or last names to retrieve their information. Each virtual machine was scaled up to standard and various users could log in and out without any problems. 
 
 ## Tools
-- Azure Sentinel, KQL, Virtual Machines, Remote desktop protocol, PowerShell, Windows Event logs
+- Active Directory, PowerShell, NAT/Routing, DHCP, Virtual Machines, Load Balancing
