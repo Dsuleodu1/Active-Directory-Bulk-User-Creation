@@ -1,4 +1,4 @@
-![](https://www.baeldung.com/wp-content/uploads/sites/4/2023/04/Password-Cracking.png)
+![](https://ecostruxure-building-help.se.com/graphics/en-US/graphics23401.png)
 
 # Active-Directory-Bulk-User-Creation
 
